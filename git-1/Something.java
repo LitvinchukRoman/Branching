@@ -8,3 +8,8 @@ public class Something {
         System.out.println("Hello, World!");
     }
 }
+
+public void someMethod() {
+    // This is a method
+    System.out.println("This is a method");
+}
