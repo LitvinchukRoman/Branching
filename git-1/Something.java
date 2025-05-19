@@ -29,3 +29,9 @@ public void anotherMethod() {
     // New simple method
     System.out.println("This is a new simple method");
 }
+
+public void yetAnotherMethod() {
+    System.out.println("This is yet another method");
+    // New simple method
+    System.out.println("This is a new simple method");
+}
