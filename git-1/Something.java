@@ -3,6 +3,10 @@ public class Something {
     private int value;
 
     private String name;
+
+    private String description;
+
+    private String type;
     
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -10,6 +14,12 @@ public class Something {
 }
 
 public void someMethod() {
-    // This is a method
-    System.out.println("This is a method");
+    int a = 5;
+    for (int i = 0; i < a; i++) {
+        System.out.println("Value: " + i);
+    }
+    System.out.println("End of loop");
+    // New simple method
+    System.out.println("This is a new simple method");
+
 }
